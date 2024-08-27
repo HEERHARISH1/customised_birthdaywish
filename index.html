@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Landing Page -->
+        <div id="landing-page" class="page active">
+            <h1>Are You Ready for Wish <span id="name-display">Dost</span>?</h1>
+            <img src="Happy Birthday Birthday Cake GIF - Happy Birthday Birthday Cake Happy - Discover & Share GIFs.gif" class="video" autoplay loop muted />
+
+            <div class="buttons">
+                <button id="yes-btn">Yes</button>
+                <button id="no-button">No</button>
+            </div>
+        </div>
+
+        <!-- Surprise Page -->
+        <div id="surprise-page" class="page">
+            <h1>Happy Birthday   <span id="surprise-name">Dost</span>!</h1>
+            <p>I'm so glad to have you in my life. cheer's to many more years together. Always Be happy!</p>
+            <div class="petals-container"></div>
+
+            <!-- Generate Link Section -->
+            <div id="link-section">
+                <p>Create and share this with your loved one:</p>
+                <div class="input-group">
+                    <input type="text" id="name-input" placeholder="Enter your beloved's name" />
+                    <button id="generate-link-btn">Generate Link</button>
+                </div>
+                <div id="link-container" class="hidden">
+                    <input type="text" id="shareable-link" readonly />
+                    <button id="copy-link-btn">Copy Link</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="thumbnail">
+            <p>Made with ❤️ by Heer</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
